@@ -1,6 +1,6 @@
-# [书生实战营] 入门岛2: Python基础
+@[TOC]([书生实战营] 入门岛2: Python基础)
 
-## 一、闯关任务：Python实现wordcount
+# 一、闯关任务：Python实现wordcount
 
 实现一个wordcount函数，统计**英文字符串**中每个单词出现的次数。返回一个输入示例，key为单词，value为对应单词出现的次数。
 
@@ -20,7 +20,7 @@ Yes, it is fun!"""
 {'hello': 1, 'world': 1, 'this': 1, 'is': 4, 'an': 1, 'example': 1, 'word': 1, 'count': 2, 'fun': 3, 'it': 2, 'to': 1, 'words': 1, 'yes': 1}
 ```
 
-### 1.基础测试
+## 1.基础测试
 
 按照官方的提示，需要实现分几步实现：单词小写转换，去除标点符号，分割字符，创建字典。具体的代码实现如下所示：
 
@@ -66,7 +66,7 @@ if __name__ == '__main__':
 {'hello': 1, 'world': 1, 'this': 1, 'is': 4, 'an': 1, 'example': 1, 'word': 1, 'count': 2, 'fun': 3, 'it': 2, 'to': 1, 'words': 1, 'yes': 1}
 ```
 
-### 2.进阶处理
+## 2.进阶处理
 
 在处理第二个案例时候会遇到**缩写**`It's`和**所有格**`daughter's`的情况，需要对`‘`字符进行特殊的处理
 
@@ -140,7 +140,7 @@ if __name__ == '__main__':
 
 可以看到`daughter's`和`it's`均进行了相应的处理
 
-## 二、闯关任务：Vscode连接InternStudio debug
+# 二、闯关任务：Vscode连接InternStudio debug
 
 在进行测试中，需要在程序中打断点，监测程序运行过程中的输出。在vscode中可以在行号前打断点，会有**红色圆点**标识
 
