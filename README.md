@@ -9,6 +9,7 @@
 
 ## 2.基础岛
 [8G 显存玩转书生大模型 Demo](notes/L1_2_Demo/L1_Demo.md)
+[浦语提示词工程实践](notes/L1_3_Prompt/Prompt.md)
 
 ## 学习参考：
 
